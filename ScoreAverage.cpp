@@ -16,7 +16,9 @@ int main()
 	cin >> score2;
 	cout << "Please enter your third score: ";
 	cin >> score3;
-	average = score1 + score2 + score3 / 3;
+	average = score1 + score2 + score3 / 3.0;
+
+	cout << "Your average is " << average;
 }
 
 
